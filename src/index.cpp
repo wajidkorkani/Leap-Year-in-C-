@@ -4,7 +4,9 @@ using namespace std;
 
 int main(){
     bool isLeapYear = false;
-    int year = 4403;
+    int year;
+    cout << "Please enter a year: ";
+    cin >> year;
 
     /* Check if year is a leap year or not a leap year. */
     if(year % 4 == 0 && year > 100){
